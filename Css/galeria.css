@@ -1,0 +1,108 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#cae2f8;
+  }
+  
+  
+  /* Global */
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+  
+  .button_1{
+    height:38px;
+    background:#ebe4f8;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:rgb(0, 0, 0);
+  }
+  
+  .dark{
+    padding:15px;
+    background:#55acff;
+    color:#55acff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  /* Header **/
+  header{
+    background:#35424a;
+    color:#91cfee;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#11a9cfa4 3px solid;
+  }
+  
+  header a{
+    color:#80acff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#9aedf1;
+    font-weight:bold;
+  }
+  img {
+      align-self:center;
+  }
+  
+  button{
+    background-color:#35424a;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    position:center;
+      bottom:5px;
+      right:10px;
+  
+    }
+    logo ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      font-size: 30px;
+      display: block;
+      padding: 20px 550px;
+  }
+  logo ul li{
+      float: left;
+      text-decoration: none;
+      display: block;
+      padding: 10px 8px;
+  }
+form{
+    display: inline-block;
+    
+}
